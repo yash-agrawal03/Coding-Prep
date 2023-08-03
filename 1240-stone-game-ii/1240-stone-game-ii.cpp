@@ -1,45 +1,24 @@
 class Solution {
 public:
-    int dp[101][2][201];
-    int solve(int i,bool a,int m,vector<int>& piles)
+    int dp[101][201];
+    int solve(vector<int> &piles, int start, int m, int total)
     {
-        if(i>=piles.size())
+        int n=piles.size();
+        if(dp[start][m]!=-1) return dp[start][m];
+        int mx=0,coins=0;
+        for(int j=start ; j< min(start+2*m,n);j++)
         {
-            return 0;
+            coins+=piles[j];
+            mx=max(mx,total-solve(piles,j+1,max(j+1-start,m),total-coins));
         }
-        if(dp[i][a][m]!=-1)
-        {
-            return dp[i][a][m];
-        }
-    if(a==0)
-    {
-        int ans=0;
-        int sum=0;
-        for(int x=1;x<=2*m && i+x-1<piles.size();x++)
-        {
-            sum+=piles[i+x-1];
-            int M=max(m,x);
-            ans=max(ans,sum+solve(i+x,1,M,piles));
-            
-        }  
-        return dp[i][a][m]=ans;
+        return dp[start][m]=mx;
     }
-    else
-    {
-        int ans=INT_MAX;
-        for(int x=1;x<=2*m;x++)
-        {
-            int M=max(m,x);
-            ans=min(ans,solve(i+x,0,M,piles));
-        }
-        return dp[i][a][m]=ans;
-    }
-    }
-
     int stoneGameII(vector<int>& piles) 
     {
         memset(dp,-1,sizeof(dp));
-        return solve(0,0,1,piles);  
+        int n=piles.size();
+        int total = accumulate(piles.begin(),piles.end(),0);
+        return solve(piles,0,1,total);
     }
 };
-//***************PLEASE UPVOTE IF FOUND USEFUL************************
+// dp[start][m]= ans for array starting from start with M = m 
