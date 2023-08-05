@@ -1,25 +1,15 @@
+							// \U0001f609\U0001f609\U0001f609\U0001f609Please upvote if it helps \U0001f609\U0001f609\U0001f609\U0001f609
 class Solution {
 public:
-    map<char,int> mp;
-    void initialize()
-    {
-        char c='A';
-        for(int i=1;i<27;i++)
+    int titleToNumber(string columnTitle) {
+        int result = 0;
+        for(char c : columnTitle)
         {
-            mp[c]=i;
-            c++;
+			//d = s[i](char) - 'A' + 1 (we used  s[i] -  'A' to convert the letter to a number like it's going to be C)
+
+            int d = c - 'A' + 1;
+            result = result * 26 + d;
         }
-    }
-    int titleToNumber(string columnTitle) 
-    {
-        initialize();
-        int ans=0;
-        int n=columnTitle.size();
-        for(int i=n-1;i>=0;i--)
-        {
-            //cout<<pow(26,(n-1)-i)<<endl;
-            ans+=pow(26,(n-1)-i)*mp[columnTitle[i]];
-        }
-        return ans;
+        return result;
     }
 };
