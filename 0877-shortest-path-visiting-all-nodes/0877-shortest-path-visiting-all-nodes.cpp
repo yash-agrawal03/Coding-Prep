@@ -20,21 +20,17 @@ public:
             int dist= top.second.first;
             int mask= top.second.second;
 
+            if(mask==end_mask)
+            {
+                return dist;
+            }
             for(auto x:graph[node])
             {
                 int tmp= (1<<x);
                 int m= tmp|mask;
-                if(m==end_mask)
-                {
-                    return dist+1;
-                }
-                else if(st.count({x,m})) continue;
-                else
-                {
-                    q.push({x,{dist+1,m}});
-                    st.insert({x,m});
-                }
-                
+                if(st.count({x,m})) continue;
+                q.push({x,{dist+1,m}});
+                st.insert({x,m});
             }
         }
         return 0;
