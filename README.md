@@ -23,18 +23,25 @@
 ## String
 |  |
 | ------- |
+| [0726-number-of-atoms](https://github.com/yash-agrawal03/Uber-Prep/tree/master/0726-number-of-atoms) |
 | [1720-crawler-log-folder](https://github.com/yash-agrawal03/Uber-Prep/tree/master/1720-crawler-log-folder) |
 ## Stack
 |  |
 | ------- |
+| [0726-number-of-atoms](https://github.com/yash-agrawal03/Uber-Prep/tree/master/0726-number-of-atoms) |
 | [1720-crawler-log-folder](https://github.com/yash-agrawal03/Uber-Prep/tree/master/1720-crawler-log-folder) |
 | [2846-robot-collisions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2846-robot-collisions) |
 ## Sorting
 |  |
 | ------- |
+| [0726-number-of-atoms](https://github.com/yash-agrawal03/Uber-Prep/tree/master/0726-number-of-atoms) |
 | [2846-robot-collisions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2846-robot-collisions) |
 ## Simulation
 |  |
 | ------- |
 | [2846-robot-collisions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2846-robot-collisions) |
+## Hash Table
+|  |
+| ------- |
+| [0726-number-of-atoms](https://github.com/yash-agrawal03/Uber-Prep/tree/master/0726-number-of-atoms) |
 <!---LeetCode Topics End-->
