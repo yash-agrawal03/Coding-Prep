@@ -20,6 +20,7 @@
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/yash-agrawal03/Uber-Prep/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1720-crawler-log-folder](https://github.com/yash-agrawal03/Uber-Prep/tree/master/1720-crawler-log-folder) |
+| [2472-build-a-matrix-with-conditions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2472-build-a-matrix-with-conditions) |
 | [2846-robot-collisions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2846-robot-collisions) |
 ## String
 |  |
@@ -49,4 +50,13 @@
 |  |
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/yash-agrawal03/Uber-Prep/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [2472-build-a-matrix-with-conditions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2472-build-a-matrix-with-conditions) |
+## Graph
+|  |
+| ------- |
+| [2472-build-a-matrix-with-conditions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2472-build-a-matrix-with-conditions) |
+## Topological Sort
+|  |
+| ------- |
+| [2472-build-a-matrix-with-conditions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2472-build-a-matrix-with-conditions) |
 <!---LeetCode Topics End-->
