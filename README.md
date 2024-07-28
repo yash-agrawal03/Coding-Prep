@@ -54,9 +54,18 @@
 ## Graph
 |  |
 | ------- |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2472-build-a-matrix-with-conditions) |
 ## Topological Sort
 |  |
 | ------- |
 | [2472-build-a-matrix-with-conditions](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2472-build-a-matrix-with-conditions) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2171-second-minimum-time-to-reach-destination) |
+## Shortest Path
+|  |
+| ------- |
+| [2171-second-minimum-time-to-reach-destination](https://github.com/yash-agrawal03/Uber-Prep/tree/master/2171-second-minimum-time-to-reach-destination) |
 <!---LeetCode Topics End-->
